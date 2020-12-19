@@ -13,11 +13,11 @@
 		F44B6128258DB64D001A19B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44B6126258DB64D001A19B7 /* Main.storyboard */; };
 		F44B612A258DB651001A19B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44B6129258DB651001A19B7 /* Assets.xcassets */; };
 		F44B612D258DB651001A19B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44B612B258DB651001A19B7 /* LaunchScreen.storyboard */; };
-		F44B6137258DB6E0001A19B7 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B6136258DB6E0001A19B7 /* SurveyViewController.swift */; };
-		F44B6139258DB6EA001A19B7 /* Survey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44B6138258DB6EA001A19B7 /* Survey.storyboard */; };
-		F44B613D258DB6F9001A19B7 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B613B258DB6F9001A19B7 /* Answer.swift */; };
-		F44B613E258DB6F9001A19B7 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B613C258DB6F9001A19B7 /* Question.swift */; };
-		F44B6141258DB706001A19B7 /* AnswerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B6140258DB706001A19B7 /* AnswerManager.swift */; };
+		F4A814EC258DBE7100B18CEA /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A814EB258DBE7100B18CEA /* SurveyViewController.swift */; };
+		F4A814EE258DBE8F00B18CEA /* AnswerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A814ED258DBE8F00B18CEA /* AnswerManager.swift */; };
+		F4A814F0258DBEAD00B18CEA /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A814EF258DBEAD00B18CEA /* Answer.swift */; };
+		F4A814F2258DBEC100B18CEA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A814F1258DBEC100B18CEA /* Question.swift */; };
+		F4A814F4258DBEE500B18CEA /* Survey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A814F3258DBEE500B18CEA /* Survey.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +29,11 @@
 		F44B6129258DB651001A19B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F44B612C258DB651001A19B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F44B612E258DB651001A19B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F44B6136258DB6E0001A19B7 /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SurveyViewController.swift; path = "../../../Quinn-Skin-App/Quinn-ios/Quinn-ios/controllers/SurveyViewController.swift"; sourceTree = "<group>"; };
-		F44B6138258DB6EA001A19B7 /* Survey.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Survey.storyboard; path = "../../../Quinn-Skin-App/Quinn-ios/Quinn-ios/storyboard/Survey.storyboard"; sourceTree = "<group>"; };
-		F44B613B258DB6F9001A19B7 /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Answer.swift; path = "../../../Quinn-Skin-App/Quinn-ios/Quinn-ios/Model/Answer.swift"; sourceTree = "<group>"; };
-		F44B613C258DB6F9001A19B7 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Question.swift; path = "../../../Quinn-Skin-App/Quinn-ios/Quinn-ios/Model/Question.swift"; sourceTree = "<group>"; };
-		F44B6140258DB706001A19B7 /* AnswerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnswerManager.swift; path = "../../../Quinn-Skin-App/Quinn-ios/Quinn-ios/AnswerManager.swift"; sourceTree = "<group>"; };
+		F4A814EB258DBE7100B18CEA /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		F4A814ED258DBE8F00B18CEA /* AnswerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnswerManager.swift; path = "Survey Project/ViewController/AnswerManager.swift"; sourceTree = SOURCE_ROOT; };
+		F4A814EF258DBEAD00B18CEA /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Answer.swift; path = "Survey Project/ViewController/Answer.swift"; sourceTree = SOURCE_ROOT; };
+		F4A814F1258DBEC100B18CEA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question.swift; path = "Survey Project/ViewController/Question.swift"; sourceTree = SOURCE_ROOT; };
+		F4A814F3258DBEE500B18CEA /* Survey.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Survey.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 		F44B6134258DB6B0001A19B7 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F44B6136258DB6E0001A19B7 /* SurveyViewController.swift */,
 				F44B6124258DB64D001A19B7 /* AboutViewController.swift */,
+				F4A814EB258DBE7100B18CEA /* SurveyViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -92,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				F44B6126258DB64D001A19B7 /* Main.storyboard */,
-				F44B6138258DB6EA001A19B7 /* Survey.storyboard */,
+				F4A814F3258DBEE500B18CEA /* Survey.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -100,8 +100,8 @@
 		F44B613A258DB6EF001A19B7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F44B613B258DB6F9001A19B7 /* Answer.swift */,
-				F44B613C258DB6F9001A19B7 /* Question.swift */,
+				F4A814EF258DBEAD00B18CEA /* Answer.swift */,
+				F4A814F1258DBEC100B18CEA /* Question.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -109,7 +109,7 @@
 		F44B613F258DB6FC001A19B7 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				F44B6140258DB706001A19B7 /* AnswerManager.swift */,
+				F4A814ED258DBE8F00B18CEA /* AnswerManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -172,9 +172,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A814F4258DBEE500B18CEA /* Survey.storyboard in Resources */,
 				F44B612D258DB651001A19B7 /* LaunchScreen.storyboard in Resources */,
 				F44B612A258DB651001A19B7 /* Assets.xcassets in Resources */,
-				F44B6139258DB6EA001A19B7 /* Survey.storyboard in Resources */,
 				F44B6128258DB64D001A19B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,12 +187,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F44B6125258DB64D001A19B7 /* AboutViewController.swift in Sources */,
+				F4A814F2258DBEC100B18CEA /* Question.swift in Sources */,
+				F4A814EE258DBE8F00B18CEA /* AnswerManager.swift in Sources */,
 				F44B6121258DB64D001A19B7 /* AppDelegate.swift in Sources */,
-				F44B613D258DB6F9001A19B7 /* Answer.swift in Sources */,
-				F44B613E258DB6F9001A19B7 /* Question.swift in Sources */,
-				F44B6137258DB6E0001A19B7 /* SurveyViewController.swift in Sources */,
-				F44B6141258DB706001A19B7 /* AnswerManager.swift in Sources */,
+				F4A814EC258DBE7100B18CEA /* SurveyViewController.swift in Sources */,
 				F44B6123258DB64D001A19B7 /* SceneDelegate.swift in Sources */,
+				F4A814F0258DBEAD00B18CEA /* Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
