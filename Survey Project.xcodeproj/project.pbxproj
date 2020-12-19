@@ -30,9 +30,9 @@
 		F44B612C258DB651001A19B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F44B612E258DB651001A19B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4A814EB258DBE7100B18CEA /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
-		F4A814ED258DBE8F00B18CEA /* AnswerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnswerManager.swift; path = "Survey Project/ViewController/AnswerManager.swift"; sourceTree = SOURCE_ROOT; };
-		F4A814EF258DBEAD00B18CEA /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Answer.swift; path = "Survey Project/ViewController/Answer.swift"; sourceTree = SOURCE_ROOT; };
-		F4A814F1258DBEC100B18CEA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question.swift; path = "Survey Project/ViewController/Question.swift"; sourceTree = SOURCE_ROOT; };
+		F4A814ED258DBE8F00B18CEA /* AnswerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnswerManager.swift; path = "Survey Project/Manager/AnswerManager.swift"; sourceTree = SOURCE_ROOT; };
+		F4A814EF258DBEAD00B18CEA /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Answer.swift; path = "Survey Project/Model/Answer.swift"; sourceTree = SOURCE_ROOT; };
+		F4A814F1258DBEC100B18CEA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question.swift; path = "Survey Project/Model/Question.swift"; sourceTree = SOURCE_ROOT; };
 		F4A814F3258DBEE500B18CEA /* Survey.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Survey.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,8 +66,8 @@
 		F44B611F258DB64D001A19B7 /* Survey Project */ = {
 			isa = PBXGroup;
 			children = (
-				F44B613F258DB6FC001A19B7 /* Manager */,
-				F44B613A258DB6EF001A19B7 /* Model */,
+				F4A814F5258DBF7F00B18CEA /* Manager */,
+				F4A814F6258DBF8900B18CEA /* Model */,
 				F44B6135258DB6BD001A19B7 /* Storyboard */,
 				F44B6134258DB6B0001A19B7 /* ViewController */,
 				F44B6120258DB64D001A19B7 /* AppDelegate.swift */,
@@ -97,21 +97,21 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		F44B613A258DB6EF001A19B7 /* Model */ = {
+		F4A814F5258DBF7F00B18CEA /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F4A814ED258DBE8F00B18CEA /* AnswerManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F4A814F6258DBF8900B18CEA /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				F4A814EF258DBEAD00B18CEA /* Answer.swift */,
 				F4A814F1258DBEC100B18CEA /* Question.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		F44B613F258DB6FC001A19B7 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				F4A814ED258DBE8F00B18CEA /* AnswerManager.swift */,
-			);
-			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
