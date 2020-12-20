@@ -12,7 +12,7 @@ class Answer {
     let text: String
     var isSelected: Bool
     
-    init(text: String, isSelected: Bool) {
+    init(text: String, isSelected: Bool = false) {
         self.text = text
         self.isSelected = isSelected
     }

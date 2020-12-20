@@ -14,14 +14,6 @@ struct Question {
     let text: String
     var answers: [Answer]
     
-//    ["0" : [
-//        "Dry" :        0,
-//        "Oily" :       0,
-//        "Sensitive" :  1,
-//        "Combo" :      0,
-//        "Normal" :     0
-//    ],
-    
     func toJson() -> KeyValue {
         var json: KeyValue = [:]
         var answersJson: [KeyValue] = []
